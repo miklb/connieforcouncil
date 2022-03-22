@@ -458,8 +458,15 @@
     .content {
         display: flex;
         align-content: start;
+        flex-direction: row;
         padding: 1rem;
     }
+
+    @media (max-width: 480px) {
+        .content {
+          flex-direction: column;
+        }
+      }
 
     .lede .content p {
         flex: 1;
@@ -486,3 +493,5 @@
         font-size: .7em;
         text-align: center;
     }
+
+    
