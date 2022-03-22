@@ -461,3 +461,15 @@
         align-content: center;
         padding: 1rem;
     }
+
+    body {
+        background-color: #F2F2F2;
+    }
+
+    .page {
+        margin: 0 2em;
+    }
+    footer {
+        font-size: .7em;
+        text-align: center;
+    }
