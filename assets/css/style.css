@@ -478,6 +478,10 @@
         padding-left: 1em;
     }
 
+    .pullquote p {
+        font-style: italic;
+    }
+
     footer {
         font-size: .7em;
         text-align: center;
