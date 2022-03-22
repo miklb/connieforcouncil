@@ -455,11 +455,15 @@
     }
 
 
-    .lede {
+    .content {
         display: flex;
-        flex-wrap: wrap;
-        align-content: center;
+        align-content: start;
         padding: 1rem;
+    }
+
+    .content p {
+        flex: 1;
+        padding-left: 1em;
     }
 
     body {
