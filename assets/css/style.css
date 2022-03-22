@@ -461,7 +461,7 @@
         padding: 1rem;
     }
 
-    .content p {
+    .lede .content p {
         flex: 1;
         padding-left: 1em;
     }
@@ -473,6 +473,11 @@
     .page {
         margin: 0 2em;
     }
+    .about .pullquote {
+        flex: 1;
+        padding-left: 1em;
+    }
+
     footer {
         font-size: .7em;
         text-align: center;
